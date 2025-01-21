@@ -2,5 +2,6 @@
     "launch": {
         "configurations": [],
         "compounds": []
-    }
+    },
+    "docwriter.style": "NumPy"
 }

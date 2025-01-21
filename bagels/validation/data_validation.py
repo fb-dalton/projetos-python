@@ -23,10 +23,20 @@ def validate_str(data):
         
 
 def validate_rng(num, guess):
-    '''
-    num - number to guess
-    guess - user's guess
-    Verify if there are correct numbers in the correct or wrong position and return a flag without specifying the number or position'''
+    """
+    Generates the clues for the user (pico, fermi, bagels).
+    Pico if the digit is correct but in the wrong position.
+    Fermi if the digit is correct and in the right position.
+    Bagels if no digit is correct.
+
+    Args:
+        num (str): insert a random number generation function that returns a 
+        3 unique digit number
+        guess (str): number input by user, must be 3 digit number
+
+    Returns:
+        'pico', 'fermi', 'bagels': returns the clues for the user
+    """
     b = 0
     test = []
     for c in range(3):
