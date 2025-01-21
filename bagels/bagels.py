@@ -1,11 +1,10 @@
 '''Bagels, a deductive logic game.
 By Al Sweigart al@inventwithpython.com'''
 
-import random
-from validation import data_validation
+from validation import data_validation, data_generation
 
-print('I am thinking of a 3 number digit between 100 and 999. Try to guess what it is.')
-secret_number = str(random.randint(100, 999))
+print('I am thinking of a 3 number digit. Try to guess what it is.')
+secret_number = data_generation.uniq_3()
 
 print('''Here are some clues:
 When I say:    That means:
@@ -13,7 +12,7 @@ Pico           One digit is correct but in the wrong position.
 Fermi          One digit is correct and in the right position.
 Bagels         No digit is correct.
 I have thought up a number.
- You have 10 guesses to get it.''')
+You have 10 guesses to get it.''')
 list_of_guesses = []
 guess_count = 0
 guess = ''
