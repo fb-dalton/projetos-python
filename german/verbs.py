@@ -21,19 +21,6 @@ verbos = [
         "reflexivo": False
     },
     {
-        "verbo": "vermeiden",
-        "tradução": "evitar",
-        "frase": "Er versucht, Streit zu vermeiden, weil er weiß, dass es nichts bringt.",
-        "tradução_frase": "Ele tenta evitar brigas porque sabe que não adianta nada.",
-        "sinônimo": ["ausweichen", "umgehen", "verhindern"],
-        "perfekt": "hat vermieden",
-        "präteritum": "vermied",
-        "regência": "vermeiden + Akkusativ",
-        "outra_frase": "Das Problem hätte verhindert werden können, wenn man früher darauf geachtet hätte.",
-        "tradução_outra_frase": "O problema poderia ter sido evitado se tivessem prestado atenção antes.",
-        "reflexivo": False
-    },
-    {
         "verbo": "erinnern",
         "tradução": "lembrar-se",
         "frase": "Ich erinnere mich nicht daran, ob er gesagt hat, dass er kommt.",
@@ -450,19 +437,6 @@ verbos = [
         "reflexivo": False
     },
     {
-        "verbo": "genehmigen",
-        "tradução": "aprovar",
-        "frase": "Die Behörden genehmigten das Bauprojekt, nachdem alle notwendigen Genehmigungen eingeholt worden waren.",
-        "tradução_frase": "As autoridades aprovaram o projeto de construção depois que todas as permissões necessárias foram obtidas.",
-        "sinônimo": ["bewilligen", "zustimmen"],
-        "perfekt": "hat genehmigt",
-        "präteritum": "genehmigte",
-        "regência": "genehmigen + Akkusativ",
-        "outra_frase": "Hätte die Regierung dem Vorschlag zugestimmt, wären die Bauarbeiten bereits begonnen.",
-        "tradução_outra_frase": "Se o governo tivesse concordado com a proposta, as obras já teriam começado.",
-        "reflexivo": False
-    },
-    {
         "verbo": "umsetzen",
         "tradução": "implementar",
         "frase": "Wenn sie den Plan in die Tat umgesetzt hätten, würden sie jetzt die Früchte ihrer Arbeit ernten.",
@@ -486,19 +460,6 @@ verbos = [
         "regência": "verhindern + Akkusativ",
         "outra_frase": "Hätten sie die Gefahr abgewehrt, wären sie jetzt in Sicherheit.",
         "tradução_outra_frase": "Se eles tivessem evitado o perigo, estariam em segurança agora.",
-        "reflexivo": False
-    },
-    {
-        "verbo": "verbessern",
-        "tradução": "melhorar",
-        "frase": "Nachdem er seine Fähigkeiten verbessert hatte, bekam er eine Beförderung.",
-        "tradução_frase": "Depois de melhorar suas habilidades, ele conseguiu uma promoção.",
-        "sinônimo": ["optimieren", "steigern"],
-        "perfekt": "hat verbessert",
-        "präteritum": "verbesserte",
-        "regência": "verbessern + Akkusativ",
-        "outra_frase": "Hätte er seine Fähigkeiten optimiert, hätte er noch mehr Erfolg gehabt.",
-        "tradução_outra_frase": "Se ele tivesse otimizado suas habilidades, teria tido ainda mais sucesso.",
         "reflexivo": False
     },
     {
@@ -837,19 +798,6 @@ verbos = [
         "regência": "anwenden + Akkusativ",
         "outra_frase": "Wenn sie die richtige Technik genutzt hätten, wären die Ergebnisse besser gewesen.",
         "tradução_outra_frase": "Se eles tivessem utilizado a técnica correta, os resultados teriam sido melhores.",
-        "reflexivo": False
-    },
-    {
-        "verbo": "aufbewahren",
-        "tradução": "armazenar, guardar",
-        "frase": "Die Dokumente müssen an einem sicheren Ort aufbewahrt werden, damit sie nicht verloren gehen.",
-        "tradução_frase": "Os documentos devem ser armazenados em um local seguro para que não se percam.",
-        "sinônimo": ["lagern", "hinterlegen"],
-        "perfekt": "hat aufbewahrt",
-        "präteritum": "bewahrte auf",
-        "regência": "aufbewahren + Akkusativ",
-        "outra_frase": "Hätte er die Daten richtig hinterlegt, hätte es keine Sicherheitsprobleme gegeben.",
-        "tradução_outra_frase": "Se ele tivesse armazenado os dados corretamente, não teria havido problemas de segurança.",
         "reflexivo": False
     },
     {
@@ -1659,19 +1607,6 @@ verbos = [
         "reflexivo": False
     },
     {
-        "verbo": "stärken",
-        "tradução": "fortalecer",
-        "frase": "Gespräche in der Familie stärken das Band zwischen den Generationen.",
-        "tradução_frase": "Conversas na família fortalecem o vínculo entre as gerações.",
-        "sinônimo": ["festigen", "kräften"],
-        "perfekt": "hat gestärkt",
-        "präteritum": "stärkte",
-        "regência": "stärken + Akkusativ",
-        "outra_frase": "Regelmäßige Familientreffen stärken nicht nur die Beziehungen, sondern sorgen auch dafür, dass keiner auf der Strecke bleibt.",
-        "tradução_outra_frase": "Reuniões familiares frequentes não só fortalecem os laços, como garantem que ninguém seja esquecido.",
-        "reflexivo": False
-    },
-    {
         "verbo": "ermutigen",
         "tradução": "encorajar",
         "frase": "Eltern ermutigen ihre Kinder stets dazu, den eigenen Weg zu gehen und Fehler als Chance zu sehen.",
@@ -1750,7 +1685,7 @@ verbos = [
         "reflexivo": False
     },
     {
-        "verbo": "sich annähern",
+        "verbo": "annähern",
         "tradução": "aproximar-se",
         "frase": "Nach einer langen Entfremdung versuchen Geschwister, sich wieder anzunähern und alte Zeiten aufleben zu lassen.",
         "tradução_frase": "Após um longo período de afastamento, os irmãos tentam se aproximar novamente e reviver os velhos tempos.",
@@ -1815,7 +1750,7 @@ verbos = [
         "reflexivo": False
     },
     {
-        "verbo": "sich einigen",
+        "verbo": "einigen",
         "tradução": "chegar a um acordo",
         "frase": "Nach langen Diskussionen konnten sich die Familienmitglieder endlich auf einen Kompromiss einigen.",
         "tradução_frase": "Após longas discussões, os membros da família finalmente chegaram a um acordo.",
@@ -4074,19 +4009,6 @@ verbos = [
         "regência": "aufbauen + Akkusativ",
         "outra_frase": "Ein gezieltes Krafttraining kann den Muskelaufbau effektiv fördern.",
         "tradução_outra_frase": "Um treinamento de força direcionado pode promover eficazmente o desenvolvimento muscular.",
-        "reflexivo": False
-    },
-    {
-        "verbo": "ausgleichen",
-        "tradução": "equilibrar, ausgleichen",
-        "frase": "Ein gesunder Lebensstil hilft, den Hormonhaushalt auszugleichen.",
-        "tradução_frase": "Um estilo de vida saudável ajuda a equilibrar o sistema hormonal.",
-        "sinônimo": ["balancieren", "harmonisieren"],
-        "perfekt": "hat ausgeglichen",
-        "präteritum": "glich aus",
-        "regência": "ausgleichen + Akkusativ",
-        "outra_frase": "Durch eine ausgewogene Ernährung lässt sich der Blutzuckerspiegel gut ausgleichen.",
-        "tradução_outra_frase": "Uma dieta equilibrada pode equilibrar bem os níveis de glicose no sangue.",
         "reflexivo": False
     },
     {
